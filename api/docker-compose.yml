@@ -1,0 +1,10 @@
+services:
+  db:
+    image: postgres:18-alpine3.22
+    container_name: "rank_db"
+    environment:
+      POSTGRES_USER: docker
+      POSTGRES_PASSWORD: docker
+      POSTGRES_DB: rank
+    ports:
+      - 5432:5432

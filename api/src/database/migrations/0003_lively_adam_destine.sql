@@ -1,0 +1,1 @@
+ALTER TABLE "points" ADD COLUMN "kahoot" integer DEFAULT 0 NOT NULL;
